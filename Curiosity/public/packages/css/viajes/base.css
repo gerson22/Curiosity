@@ -1,0 +1,111 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: calibri;
+}
+
+footer{
+  min-height: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+.slide-pad{
+  margin-top: -20px;
+}
+
+a,li{
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+a:hover,li:hover{
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+label.error{
+  color: rgba(255, 0, 0, 0.7);
+  font-size: .85em;
+}
+
+.table-color{
+  background-color: rgba(221, 44, 0, 0.8);
+  color:  rgba(255, 255, 255, 0.7);
+}
+
+.table-datos{
+  background-color: rgba(0, 0, 0, 0.91);
+  color:  rgba(255, 255, 255, 0.7);
+}
+
+td{
+  text-align: center;
+  font-size: 1.1em;
+}
+
+th{
+  font-weight: lighter;
+}
+
+body{
+  background-color: rgb(55, 55, 55);
+}
+
+header{
+  height: auto;
+  padding: 5px;
+  background-color: rgb(27, 29, 29);
+  box-sizing: border-box;
+}
+
+tbody tr:hover{
+  cursor: pointer;
+  background-color: rgba(88, 88, 88, 0.36);
+}
+
+.camiones:hover{
+  cursor: pointer;
+  background-color: rgba(115, 191, 129, 0.2);
+}
+
+.btn.btn-fab {
+    margin: 0;
+    padding: 0px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+li{
+  font-weight: bolder;
+}
+
+#welP{
+  background-color: rgb(43, 43, 43);
+  border-radius: 5px;
+  margin-top: 25px;
+  color: rgba(252, 252, 252, 0.5);
+  box-shadow: none;
+}
+
+li:hover{
+    transition: .4s;
+}
+
+.row-info{
+  margin-top: 25px;
+}
+
+.datos-info{
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.text-inform{
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 25px;
+  border-radius: 50%;
+}
