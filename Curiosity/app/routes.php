@@ -11,7 +11,8 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
+Route::get('/', 'principalController@verPagina');
+Route::get('/login', 'loginController@verPagina');
+Route::get('/cursos', 'cursoController@verPagina');
+Route::get('/temarios', 'temarioController@verPagina');
+Route::get('/bloques', 'bloqueController@verPagina');
