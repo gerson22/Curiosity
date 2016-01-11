@@ -1,0 +1,45 @@
+body{
+  background-image: url(/packages/images/fondos/fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.lockscreen-wrapper{
+  margin-top: 70px;
+}
+
+img.lock-img{
+  width: 50%;
+}
+
+.lockscreen-name{
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: -40px;
+}
+
+.lockscreen-wrapper .well{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.5);
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+.lockscreen-item{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.help-block{
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 1.2em;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#regresar-home{
+  margin-bottom: 20px;
+}
+
+.lockscreen-footer{
+  color: rgba(255, 255, 255, 0.55);
+}

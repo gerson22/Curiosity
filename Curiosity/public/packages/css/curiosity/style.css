@@ -1,0 +1,300 @@
+html, body{
+	height: 100%;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: calibri;
+	font-size: 1.3em;
+	background-color: rgba(60, 141, 187, 1);
+}
+
+/*/ Barra de desplazamiento /*/
+::-webkit-scrollbar {
+      width: 15px;
+}
+::-webkit-scrollbar-track {
+      background-color: rgba(60, 141, 187, 1);
+}
+::-webkit-scrollbar-thumb {
+      background-color: rgba(8, 115, 167, 1);
+
+}
+::-webkit-scrollbar-button {
+      background-color: rgba(60, 141, 187, 1);
+}
+::-webkit-scrollbar-corner {
+      background-color: transparent;
+}
+
+/* estilo general */
+.pantalla-total{
+	height: 100%;
+}
+
+.make-circle{
+	background: red;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	color: rgb(255, 255, 255);
+	padding-top: 25px;
+}
+
+.input-group-addon{
+	min-width: 45px;
+	max-width: 45px;
+	border-color: black;
+	color: white;
+	border:
+}
+
+.btn{
+	border: none;
+}
+
+.bg-blue{
+	background-color: rgba(60, 141, 187, 1);
+}
+
+.bg-pink{
+	background-color: rgb(228, 42, 187);
+}
+
+.bg-yellow{
+	background-color: rgb(175, 208, 18);
+}
+
+.bg-purple{
+	background-color: rgb(136, 18, 185);
+}
+
+.bg-green, .btn-primary{
+	background-color: rgb(0, 163, 100) !important;
+}
+
+.bg-orange, .btn-warning{
+	background-color: rgb(241, 99, 0) !important;
+}
+
+.btn-warning:hover{
+	background-color: rgb(212, 87, 0) !important;
+	transition: .4s;
+}
+
+.addon-green{
+	border-color: rgb(2, 133, 82);
+}
+
+.addon-purple{
+	border-color: rgb(94, 2, 133);
+}
+
+.addon-orange{
+	border-color: rgb(173, 73, 3);
+}
+
+.btn-primary:hover{
+	background-color: rgb(1, 136, 84) !important;
+	transition: .4s;
+}
+
+.bg-transparent{
+	background-color: transparent;
+}
+
+/* Navbar Menu*/
+.navbar{
+	padding-right: 10px;
+	padding-left: 10px;
+	border: none;
+}
+
+ul.nav > li > a{
+	color: rgba(255, 255, 255, 1) !important;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+}
+
+.navbar-brand{
+	color: rgba(255, 255, 255, 1) !important;
+	font-weight: bold;
+	font-size: 1.7em;
+	letter-spacing: 0px;
+}
+
+.navbar-brand small{
+	opacity: .85;
+	font-weight: lighter;
+}
+
+/* / inicio / */
+#inicio{
+	background-image: url(/packages/images/fondos/fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 70px;
+}
+
+#inicio div div h1{
+	color: white;
+	font-size: 3.5em;
+	letter-spacing: 1px;
+	margin-top: -10px;
+}
+
+.boton-inicio{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	min-width: 250px;
+	max-width: 250px;
+	margin-top: -20px;
+	font-size: 2em;
+
+}
+
+.cel-boton-inicio{
+	width: 100%;
+	font-size: 2em;
+	margin-bottom: 10px;
+}
+
+/*/ que ofrecemos /*/
+#ofrecemos{
+	background-color: rgb(255, 255, 255);
+	background-image: url(/packages/images/fondos/fondo2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+section div div h3{
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+
+.opciones-margen{
+	margin-bottom: 50px;
+}
+
+/*/ escuelas asociadas /*/
+#escuelas{
+	background-color: rgb(59, 59, 59);
+}
+
+#escuelas > .container > .row > div > h3{
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.escuelas-panel{
+	padding: 20px;
+	background-color: rgb(33, 33, 33);
+	border-radius: 5px;
+	margin: 10px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.escuelas-img-hover:hover{
+	opacity: 0.5;
+	transition: .3s;
+}
+
+.escuelas-mas{
+	margin-top: 50px;
+	color: rgb(254, 255, 251);
+	margin-bottom: 50px;
+	font-size: 1em;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: rgba(36, 35, 35, .5);
+}
+
+.escuelas-mas label{
+	font-size: 2em;
+	margin-left: 25px;
+}
+
+.escuelas-mas:hover{
+	cursor: pointer;
+	/*background-color: rgba(36, 35, 35, .2);*/
+	opacity: .5;
+	transition: .4s;
+}
+
+.escuelas-panel h5{
+	color: rgba(255, 255, 255, 0.6);
+	padding-top: 20px;
+	letter-spacing: 0.5px;
+	font-weight: bold;
+}
+
+/*/ formas de pago /*/
+#pagos{
+	background-color: rgb(255, 255, 255);
+	background-image: url(/packages/images/fondos/fondo2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 50px;
+}
+
+#pagos > .container > .row > div > h3{
+	color: rgba(40, 40, 40, 1);
+}
+
+.pagos-panel{
+	padding: 50px;
+	box-sizing: border-box;
+	background-color: rgb(87, 87, 87);
+	border-radius: 5px;
+}
+
+/*/ preguntas frecuentes /*/
+#preguntas{
+	/*background-image: url(../images/fondo3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	padding-bottom: 50px;
+}
+
+#preguntas > .container > .row > div > h3{
+	color: rgba(255, 255, 255, .9);
+}
+
+input[type="text"], input[type="email"]{
+	height: 45px;
+}
+
+.preguntas-respuestas .preguntas-ask a{
+	font-size: 1.5em;
+}
+
+#preguntas-acordion .panel .panel-heading h4 a{
+	text-decoration: none;
+	font-weight: 500;
+}
+
+#preguntas-acordion .panel .collapse .panel-body p{
+	font-size: 1.1em;
+	transition: .4s;
+}
+
+#preguntas-bnt-enviar{
+	background-color: rgb(4, 135, 84) !important;
+}
+
+/*/ Pie de la pagina /*/
+footer{
+	padding: 20px;
+	background-color: rgba(10, 92, 139, 1);
+}
+
+footer > div > div > div > h4{
+	color: rgba(255, 255, 255, 0.7);
+}
+footer > div > div > div > h5{
+	color: rgba(255, 255, 255, 0.7);
+}
