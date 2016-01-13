@@ -1,18 +1,42 @@
-@extends('master-page.masterPage')
-@section('css')
-
-@stop
-@section('contenido')
-    <div class="panel panel-warning">
-	  <div class="panel-heading">
-			<h3 class="panel-title">Curiosity</h3>
-	  </div>
-	  <div class="panel-body">
-			<h2><b>ERROR 404</b> La pagina a la que desea acceder no existe o esta en standBy</h2>
-	  </div>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="/packages/images/Curiosity.png">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  {{HTML::style('/packages/css/bootstrap.min.css')}}
+  {{HTML::style('/packages/css/font-awesome.min.css')}}
+  {{HTML::style('/packages/css/curiosity/userStyle.css')}}
+  {{HTML::style('/packages/css/curiosity/loginStyle.css')}}
+  <title>Curiosity | login</title>
+</head>
+<body>
+  <br><br>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="lockscreen-wrapper">
+          <div class="well well-lg" style="color:#fff;">
+            <div class="lockscreen-logo">
+              <!-- <b>Curiosity</b><small>.com.mx</small> -->
+              <center>
+                {{HTML::image('/packages/images/pg-curiosity.png', 'alt', array('class' => 'img-responsive wow bounceIn lock-img'))}}
+              </center>
+            </div>
+            <h1 class="text-center"><b>404</b></h1>
+            <h4 class="text-center">La pagina que usted intenta buscar no existe</h4>
+            <div class="lockscreen-footer text-center">
+              Copyright &copy; 2016 | <b>Curiosity</b><br>
+              Todos los derechos reservados.
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 
-@stop
-@section('js')
 
-@stop
+{{HTML::script('/packages/js/jquery.min.js')}}
+{{HTML::script('/packages/js/bootstrap.min.js')}}
+</body>
+</html>
