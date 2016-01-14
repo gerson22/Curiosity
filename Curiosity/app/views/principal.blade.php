@@ -415,7 +415,7 @@
     <div class="row">
       <div class="col-xs-12 text-center">
         <h4><b>Curiosity.com.mx</b></h4>
-        <h5>Copyright &copy; 2016 | Que tu curiosidad sea el limite</h5>
+        <h5>Copyright &copy; 2016 | Que tu curiosidad no tenga limites</h5>
       </div>
     </div>
   </div>
