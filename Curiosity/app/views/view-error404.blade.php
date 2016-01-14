@@ -8,7 +8,7 @@
   {{HTML::style('/packages/css/font-awesome.min.css')}}
   {{HTML::style('/packages/css/curiosity/userStyle.css')}}
   {{HTML::style('/packages/css/curiosity/loginStyle.css')}}
-  <title>Curiosity | login</title>
+  <title>Curiosity | ERROR 404</title>
 </head>
 <body>
   <br><br>
