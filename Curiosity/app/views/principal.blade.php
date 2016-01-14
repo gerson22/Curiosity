@@ -28,7 +28,7 @@
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right main-navigation">
         <li><a href="javascript:void(0)" id="link-inicio">Inicio</a></li>
-        <li><a href="javascript:void(0)" id="link-ofrecemos">¿Qué Ofrecemos?</a></li>
+        <li><a href="javascript:void(0)" id="link-ofrecemos">¿Qué es Curiosity?</a></li>
         <li><a href="javascript:void(0)" id="link-escuelas">Escuelas Asociadas</a></li>
         <li><a href="javascript:void(0)" id="link-pagos">Formas de Pago</a></li>
         <li><a href="javascript:void(0)" id="link-preguntas">Preguntas Frecuentes</a></li>
@@ -97,7 +97,7 @@
 <section class="container-fluid" id="ofrecemos">
   <div class="row">
     <div class="col-xs-12 text-center">
-      <h3>¿Qué Ofrecemos?</h3>
+      <h3>¿Qué es Curiosity?</h3>
     </div>
   </div>
 
